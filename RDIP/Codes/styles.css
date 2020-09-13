@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #70e1f5;
+    background: -webkit-linear-gradient(to right, #ffd194, #70e1f5);
+    background: linear-gradient(to right, #ffd194, #70e1f5);
+}
+
+#options {
+    padding: 3px;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.45);
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    font-size: 16px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#a1 {
+    text-align: center;
+    font-size: 20px;
+    color: #333;
+}
+
+#a2 {
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+}
+
+#a3 {
+    text-align: center;
+    font-size: 16px;
+    color: #000;
+}
+
+#a4 {
+    text-align: center;
+    font-size: 20px;
+    color: #333;
+}
+
+#a5 {
+    text-align: center;
+    font-size: 18px;
+    color: blue;
+}
+
+#a6 {
+    text-align: center;
+    font-size: 16px;
+    color: black;
+}
+
+#a7 {
+    text-align: center;
+    font-size: 16px;
+    color: black;
+}
+
+#a8 {
+    text-align: center;
+    font-size: 16px;
+    color: green;
+}
+
+#a9 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: red;
+}
+
+#a10 {
+    text-align: center;
+    font-size: 16px;
+    color: black;
+}
+
+#correctans {
+    text-align: center;
+    font-size: 20px;
+    color: green;
+}
+
+button {
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.08);
+}
+
+button:hover {
+    transition: 0.3s;
+    font-size: 18px;
+    color: honeydew;
+    background: #808080;
+}
