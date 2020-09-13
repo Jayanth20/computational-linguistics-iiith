@@ -13,14 +13,25 @@ function display() {
     if (select.value === 'corpus1') {
         document.getElementById('c1').innerHTML = 'Corpus 1';
         document.getElementById('corp1').innerHTML = corp1;
+        document.getElementById('tableheading').innerHTML = "Enter the number of tokens and types for the above corpus:";
+        document.getElementById("container").style.display = "block";
     } else if (select.value === 'corpus2') {
         document.getElementById('c1').innerHTML = 'Corpus 2';
         document.getElementById('corp1').innerHTML = corp2;
+        document.getElementById('tableheading').innerHTML = "Enter the number of tokens and types for the above corpus:";
+        document.getElementById("container").style.display = "block";
     } else if (select.value === 'corpus3') {
         document.getElementById('c1').innerHTML = 'Corpus 3';
         document.getElementById('corp1').innerHTML = corp3;
+        document.getElementById('tableheading').innerHTML = "Enter the number of tokens and types for the above corpus:";
+        document.getElementById("container").style.display = "block";
     } else {
+        alert('Select a Corpus');
         document.getElementById('c1').innerHTML = '';
         document.getElementById('corp1').innerHTML = "";
+        document.getElementById('tableheading').innerHTML = "";
+        document.getElementById('container').style.display = "none";
     }
 }
+
+function Submit() {}
