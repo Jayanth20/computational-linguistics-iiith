@@ -59,3 +59,18 @@ function Submit() {
         document.getElementById('status').style.color = '#FF0000';
     }
 }
+
+function Continue() {
+    var status = document.getElementById('status').innerHTML;
+    var cont = document.getElementById('continue').innerHTML;
+    document.getElementById('status').style.display = 'none';
+    document.getElementById('continue').style.display = 'none';
+    document.getElementById('submit').style.display = 'none';
+    document.getElementById('submit2').style.display = 'block';
+    document.getElementById('newtype').innerHTML = "Now, consider all the tokens with the same 'root' word to be of the same type. Recalculate the number of types.";
+    document.getElementById('container2').style.display = "block";
+}
+
+function Final() {
+
+}
