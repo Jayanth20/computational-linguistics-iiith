@@ -21,22 +21,23 @@
     <h4 id="c2"></h4>
     <p id="corp2"></p>
     <h4 id="c3"></h4>
-    <p id="corp3"></p><br>
+    <p id="corp3"></p>
     <p id="tableheading"></p>
     <div class="container" id="container">
         <table id="tokeninp" class="center">
             <tr>
                 <td>#Tokens:</td>
-                <td><input type="number" id="tokencnt" name="tokencnt"></td>
+                <td><input type="number" id="tokencnt" name="tokencount"></td>
             </tr>
             <tr>
                 <td>#Types:</td>
-                <td><input type="number" id="tokentype" name="tokentype"></td>
+                <td><input type="number" id="tokentype" name="token-type"></td>
             </tr>
         </table>
         <button id="submit" onclick="Submit()">Submit</button>
     </div>
-
+    <p id="status"></p>
+    <button id="continue" class="continue" onclick="Continue()">Continue</button>
     <script src="script.js"></script>
 </body>
 

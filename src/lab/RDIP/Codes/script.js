@@ -34,4 +34,28 @@ function display() {
     }
 }
 
-function Submit() {}
+function Submit() {
+    var tok = document.getElementById('tokencnt').value;
+    var type = document.getElementById('tokentype').value;
+    if (select.value === 'corpus1' && tok === '169' && type === '80') {
+        document.getElementById('tokencnt').style.backgroundColor = '#008000';
+        document.getElementById('tokentype').style.backgroundColor = '#008000';
+        document.getElementById('status').innerHTML = 'Right Answer !!!';
+        document.getElementById('continue').style.display = 'block';
+    } else if (select.value === 'corpus2' && tok === '111' && type === '65') {
+        document.getElementById('tokencnt').style.backgroundColor = '#008000';
+        document.getElementById('tokentype').style.backgroundColor = '#008000';
+        document.getElementById('status').innerHTML = 'Right Answer !!!';
+        document.getElementById('continue').style.display = 'block';
+    } else if (select.value === 'corpus3' && tok === '219' && type === '95') {
+        document.getElementById('tokencnt').style.backgroundColor = '#008000';
+        document.getElementById('tokentype').style.backgroundColor = '#008000';
+        document.getElementById('status').innerHTML = 'Right Answer !!!'
+        document.getElementById('continue').style.display = 'block';
+    } else {
+        document.getElementById('tokencnt').style.backgroundColor = '#FF0000';
+        document.getElementById('tokentype').style.backgroundColor = '#FF0000';
+        document.getElementById('status').innerHTML = 'Wrong Answer !!!';
+        document.getElementById('status').style.color = '#FF0000';
+    }
+}
