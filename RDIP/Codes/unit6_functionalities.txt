@@ -1,0 +1,9 @@
+1) Selection of languages
+2) Selection of a sentence from dropdown
+3) Selection of POS for every word
+4) On submission answer will be verified
+	a) If correct, tick appears in the table.
+	b) If wrong, the 'Get Answer' button appears
+
+Missing:
+1) In quiz tab, there is no option for assigning POS tags and also submit button to be added to check the correctness.
