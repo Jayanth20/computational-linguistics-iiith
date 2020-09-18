@@ -16,8 +16,6 @@ var corpus = [
 ];
 var eng = document.getElementById('eng').value;
 var hin = document.getElementById('hin').value;
-console.log(eng);
-console.log(hin);
 let select = document.getElementById('options1');
 
 function display() {
