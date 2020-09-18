@@ -1,0 +1,33 @@
+#options2 {
+    display: none;
+}
+
+#options3 {
+    display: none;
+}
+
+#tablehead {
+    color: blue;
+    font-style: italic;
+    font-size: 18px;
+    display: none;
+}
+
+#pos {
+    display: none;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.head {
+    color: brown;
+}
+
+td {
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border: 1px solid #000;
+}

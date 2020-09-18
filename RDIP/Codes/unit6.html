@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Unit 6</title>
+
+    <link rel="stylesheet" href="unit6.css">
+
+
+</head>
+
+<body>
+    <h2>Unit 6</h2>
+    <select id="options1" onchange="display();">
+        <option value="default">--Select Language--</option>
+        <option id="eng" value="english">English</option>
+        <option id="hin" value="hindi">Hindi</option>
+    </select>
+    <select id="options2" onchange="display2();">
+        <option id = "default2" value="default2">--Select a Sentence--</option>
+        <option id="e1" value="e1">The child liked the chocolate.</option>
+        <option id="e2" value="e2">She was stopped by the bravest knight.</option>
+        <option id="e3" value="e3">Mary baked a cake for his birthday</option>
+        <option id="e4" value="e4">She decorated the cake carefully</option>
+        <option id="e5" value="e5">Mary wore a dress with polka dots.</option>
+    </select>
+    <select id="options3" onchange="display2();">
+        <option id = "default3" value="default3">--Select a Sentence--</option>
+        <option id="h1" value="h1">राम ने सीता के लिए फल तोड़ा।</option>
+        <option id="h2" value="h2">छोटे बच्चे पाठशाला जल्दी आयेंगे।</option>
+        <option id="h3" value="h3">मेहनत का फल मीठा होता है।</option>
+        <option id="h4" value="h4">वाह! वह खूबसूरत है।</option>
+        <option id="h5" value="h5">पेड़ से पत्ते गिर गए।</option>
+    </select>
+    <p id="tablehead">Select the POS tag for corresponding words</p>
+    <div class="container">
+        <table id="pos">
+            <th>
+                <td class="head">LEXICON</td>
+                <td class="head">POS</td>
+            </th>
+        </table>
+    </div>
+    <script src="unit6.js"></script>
+
+</html>
